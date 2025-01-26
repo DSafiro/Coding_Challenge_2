@@ -41,3 +41,19 @@ let customers = [
 
 customers.push({name: "Sheldon Plankton", email: "ihatethekrustykrab@bikinibottom.com", purchaseAmount: 600}); // Adds new customer information to array
     console.log("Customer List:", customers); // Customer List
+
+
+// Task 5: Order Processing System
+let order = {
+    orderID: 49,
+    customerName: "Squilliam Fancyson",
+    amount: 400,
+}; // Object of order properties
+
+function calculateTax() {
+    const taxRate = 0.10 // Tax Rate of 10%
+    return order.amount * taxRate 
+}; // Calculates Tax Amount
+
+console.log("Order Information:", order); // Order Information
+console.log("Taxed Amount:", calculateTax()); // Taxed Amount
