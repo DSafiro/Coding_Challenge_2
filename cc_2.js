@@ -17,3 +17,16 @@ scores[1] = 91 // Updates second value in array
 let totalScores = scores.reduce((total, amount) => total + amount, 0); // Calculates total of scores
 let averageScores = totalScores / scores.length // Calculates average of scores
     console.log("Average Score:", averageScores); // Average Score
+
+
+// Task 3: Employee Records
+let employee = {
+    name: "Spongebob Squarepants",
+    age: 39,
+    department: "Kitchen",
+    isActive: true
+}; // Employee Information
+
+employee.department = "Food" // Updates department in employee information
+employee.position = "Frycook" // Adds position to employee information
+    console.log("Updated Employee Information:", employee); // Updated Employee Information
