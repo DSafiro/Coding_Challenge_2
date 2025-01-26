@@ -30,3 +30,14 @@ let employee = {
 employee.department = "Food" // Updates department in employee information
 employee.position = "Frycook" // Adds position to employee information
     console.log("Updated Employee Information:", employee); // Updated Employee Information
+
+
+// Task 4: Customer Database
+let customers = [
+    {name: "Patrick Star", email: "patrickstar@bikinibottom.com", purchaseAmount: 350},
+    {name: "Squidward Tentacles", email: "squidward@bikinibottom.com", purchaseAmount: 500},
+    {name: "Eugene Krabs", email: "crustaceouscheapskate@bikinibottom.com", purchaseAmount: 100}
+]; // Initial array of customer information
+
+customers.push({name: "Sheldon Plankton", email: "ihatethekrustykrab@bikinibottom.com", purchaseAmount: 600}); // Adds new customer information to array
+    console.log("Customer List:", customers); // Customer List
